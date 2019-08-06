@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Russo One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Russo One'), local('RussoOne-Regular'), url(http://web.archive.org/web/20190118182019im_/https://fonts.gstatic.com/s/russoone/v5/4ofjFbAC3dpxPypNpg86K6CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(#00AA44, #001100);
+}
+
+.header {
+    font-family: 'Russo One', sans-serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    height: 100%;
+    flex-direction: column;
+}
+
+.container {
+    display: -webkit-flex; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: -webkit-flex; 
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    display: -webkit-flex; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.link p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.link a {
+    color: #CCFFCC;
+    font-weight: bold;
+}
+/*
+     FILE ARCHIVED ON 18:20:19 Jan 18, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:33:52 Aug 06, 2019.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 100.202 (3)
+  esindex: 0.014
+  captures_list: 127.364
+  CDXLines.iter: 10.502 (3)
+  PetaboxLoader3.datanode: 110.027 (4)
+  exclusion.robots: 0.262
+  exclusion.robots.policy: 0.249
+  RedisCDXSource: 12.973
+  PetaboxLoader3.resolve: 61.998
+  load_resource: 210.628
+*/
