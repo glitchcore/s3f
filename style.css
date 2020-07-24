@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+black #666666
+white #E6E6E6
+main #00FF00
+dark #396639
+grey #B3B3B3
+*/
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.main-panel {
+    background: #E6E6E6;
+    width: 70%;
+}
+
+.link-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #666666;
+    width: 30%;
+    color: #E6E6E6;
+}
+
+.link {
+    display: flex;
+    margin: 0.5em;
+}
+
+.link-text {
+    padding-left: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.link-text p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+a {
+    text-decoration: none;
+    color: #00FF00;
+}
