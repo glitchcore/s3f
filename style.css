@@ -15,11 +15,22 @@ grey #B3B3B3
 .container {
     display: flex;
     height: 100%;
+    flex-wrap: wrap;
 }
 
 .main-panel {
     background: #E6E6E6;
-    width: 70%;
+    color: #396639;
+
+    padding-top: 10%;
+    padding-left: 10%;
+
+    /*min-width: 13em;*/
+    flex-grow: 4;
+
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .link-panel {
@@ -28,8 +39,10 @@ grey #B3B3B3
     align-items: center;
 
     background: #666666;
-    width: 30%;
     color: #FFFFFF;
+
+    /*min-width: 13em;*/
+    flex-grow: 1;
 }
 
 .link {
