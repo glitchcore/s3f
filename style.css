@@ -26,15 +26,23 @@ grey #B3B3B3
     background: #E6E6E6;
     color: #396639;
 
-    padding-top: 10%;
-    padding-left: 10%;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
 
-    /*min-width: 13em;*/
-    flex-grow: 4;
+    min-width: 400px;
+    flex-grow: 8;
 
     font-size: 1.2em;
     font-family: sans-serif;
     font-weight: bold;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+}
+
+.main-item {
+    border: 1px solid black;
+    height: 150px;
 }
 
 .link-panel {
