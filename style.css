@@ -32,7 +32,7 @@ grey #B3B3B3
     flex-grow: 8;
 
     display: grid;
-    grid-template-columns: 300px; /* repeat(auto-fill, 300px); */
+    grid-template-columns: repeat(auto-fill, 300px);
     grid-template-rows: min-content;
 }
 
@@ -40,6 +40,8 @@ grey #B3B3B3
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+
+    padding: 0.5em;
 }
 
 .main-item p {
@@ -125,6 +127,7 @@ a:hover {
 .main-item-description {
     align-self: flex-start;
     color: #666666;
+    padding-bottom: 0.4em;
 }
 
 .main-item-role {
