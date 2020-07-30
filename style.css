@@ -24,25 +24,27 @@ grey #B3B3B3
 
 .main-panel {
     background: #E6E6E6;
-    color: #396639;
 
-    padding-top: 0.5em;
-    padding-left: 0.5em;
+    padding-top: 1em;
+    padding-left: 1em;
 
     min-width: 400px;
     flex-grow: 8;
 
-    font-size: 1.2em;
-    font-family: sans-serif;
-    font-weight: bold;
-
     display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-columns: 300px; /* repeat(auto-fill, 300px); */
+    grid-template-rows: min-content;
 }
 
 .main-item {
-    border: 1px solid black;
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-item p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .link-panel {
@@ -103,6 +105,52 @@ a {
 a:hover {
     background: #396639;
     color: #E6E6E6;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.main-item-img {
+    align-self: center;
+}
+
+.main-item-caption {
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #396639;
+
+    align-self: center;
+}
+
+.main-item-description {
+    align-self: flex-start;
+    color: #666666;
+}
+
+.main-item-role {
+    align-self: flex-end;
+    font-style: italic;
+    color: #B3B3B3;
+}
+
+.main-item-link {
+    align-self: flex-start;
+
+    color: #396639;
+}
+
+.main-item-link a {
+    text-decoration: none;
+    background: #396639;
+    color: #E6E6E6;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin-left: 0.1em;
+}
+
+.main-item-link a:hover {
+    background: #396639;
+    color: #00FF00;
     padding-left: 0.2em;
     padding-right: 0.2em;
 }
