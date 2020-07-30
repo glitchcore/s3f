@@ -12,6 +12,10 @@ dark #396639
 grey #B3B3B3
 */
 
+.grey {
+    color: #B3B3B3;
+}
+
 .container {
     display: flex;
     height: 100%;
@@ -35,8 +39,9 @@ grey #B3B3B3
 
 .link-panel {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
 
     background: #666666;
     color: #FFFFFF;
@@ -45,9 +50,28 @@ grey #B3B3B3
     flex-grow: 1;
 }
 
+.owner {
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    margin-bottom: 2em;
+}
+
+.owner p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.links {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .link {
     display: flex;
-    margin: 0.5em;
+    margin: 0.0em;
 }
 
 .link-text {
